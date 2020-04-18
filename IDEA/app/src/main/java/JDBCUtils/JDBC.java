@@ -7,10 +7,10 @@ import java.sql.*;
 import static ToolsUtils.StringUtils.trueOrfalse;
 
 public class JDBC {
-    private static String driver = "com.mysql.jdbc.Driver";
-    private static String url = "jdbc:mysql://39.106.100.138:3306/study?characterEncoding=utf-8&serverTimezone=UTC&useSSL=false&useUnicode=yes";
-    private static String user = "lab";
-    private static String password = "123456789";
+    private static String driver = "";
+    private static String url = "";
+    private static String user = "";
+    private static String password = "";
     private static Connection connection;
 
 
