@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:ignore="MissingDefaultResource">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:text="@string/投喂"/>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent" android:background="@android:color/black"/>
+        <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/R2_8_fragment_radioGroup">
+            <View android:layout_width="20dp" android:layout_height="match_parent"/>
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:text="@string/拌料"
+                    android:id="@+id/R2_8_fragment_1"/>
+            <View android:layout_width="20dp" android:layout_height="match_parent"/>
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:text="@string/饮水"
+                    android:id="@+id/R2_8_fragment_2"/>
+        </RadioGroup>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@android:color/black"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:text="@string/jiliang"/>
+        <View android:layout_width="35dp" android:layout_height="match_parent"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2_8_jiliang"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@android:color/black"/>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:text="@string/总投喂量"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2_8_touweiKG"
+                android:textSize="12sp"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/black"
+                android:singleLine="true"/>
+        <View android:layout_width="20dp" android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@android:color/black"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:text="@string/投喂疗程"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2_8_touweiDAY"
+                android:textSize="12sp"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/black"
+                android:singleLine="true"/>
+    </LinearLayout>
+
+</LinearLayout>

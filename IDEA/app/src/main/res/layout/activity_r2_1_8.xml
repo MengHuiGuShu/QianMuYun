@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="#CCC2BC"
+    tools:context=".R2_1_8Activity">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/R2_8_textViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@color/design_default_color_background"
+                android:gravity="center"
+                android:text="@string/progressdangan"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:textSize="24sp"
+                android:drawableEnd="@mipmap/ic_launcher"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <TextView
+                    android:id="@+id/R2_8_textViewTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/usingtime"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/R2_8_textViewTitle" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:id="@+id/R2_8_time"/>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/danweiqunti"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"/>
+            <View android:layout_width="100dp" android:layout_height="match_parent"/>
+            <View
+                 android:layout_width="30dp"
+                 android:layout_height="30dp"
+                 android:background="@drawable/icol_scandel"
+                 android:id="@+id/R2_8_zxing"/>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:text="@string/圈舍"/>
+            <EditText
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/R2_8_圈舍"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:text="@string/栏"/>
+            <EditText
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:id="@+id/R2_8_栏"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:text="@string/耳号"/>
+            <EditText
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:id="@+id/R2_8_耳号"/>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:text="@string/number"/>
+            <EditText
+                    android:layout_width="80dp"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:layout_height="match_parent"
+                    android:id="@+id/R2_8_number"/>
+            <View android:layout_width="80dp" android:layout_height="match_parent"/>
+            <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:text="@string/avgweight"/>
+            <EditText
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:id="@+id/R2_8_weight"/>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioGroup android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/R2_8_NutritionOrHealth" android:orientation="horizontal">
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/jieduanyingyang"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:singleLine="true"
+                        android:id="@+id/R2_8_radio1"/>
+                <View android:layout_width="60dp" android:layout_height="match_parent"/>
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/baojian"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:singleLine="true"
+                        android:id="@+id/R2_8_radio2"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+        <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jin_cu"/>
+
+        <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2_8_stage"/>
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2_8_NutritionHealth"/>
+
+        <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2_8_NutritionAndHealth"/>
+
+        <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="32dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:singleLine="true"
+                    android:text="@string/vedio"
+                    android:id="@+id/R2_8_vedio"/>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Enter"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:layout_gravity="center"
+                android:id="@+id/R2_8_enter"/>
+
+        <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--*********************************自己定义的控件尺寸********************************************-->
+    <dimen name="huge">14dp</dimen>
+    <dimen name="small">8dp</dimen>
+    <dimen name="meddle">10dp</dimen>
+    <dimen name="large">18dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <dimen name="title">24sp</dimen>
+
+    <!--*********************************自己定义的控件尺寸@杨杰豪********************************************-->
+    <dimen name="menu">40dp</dimen>
+    <dimen name="num_zxing">40dp</dimen>
+    <dimen name="zxing">25dp</dimen>
+    <dimen name="List">32dp</dimen>
+    <dimen name="line">0.5dp</dimen>
+    <dimen name="TableChange">35dp</dimen>
+
+
+    <!--*********************************自己定义的控件尺寸@刘凯********************************************-->
+    <dimen name="medllbutton">15sp</dimen>
+    <dimen name="titile">24sp</dimen>
+
+</resources>

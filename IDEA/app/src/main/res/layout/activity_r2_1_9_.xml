@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="#CCC2BC"
+    tools:context=".R2_1_9_Activity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_6input"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/view48"
+        app:layout_constraintEnd_toStartOf="@+id/view49"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toEndOf="@+id/view45"
+        app:layout_constraintTop_toBottomOf="@+id/view47"
+        app:layout_constraintVertical_bias="0.448">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_maoseinput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_vertical|center_vertical"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_4input"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintAnimationEnabled="false"
+        app:hintEnabled="false"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintBottom_toTopOf="@+id/view48"
+        app:layout_constraintEnd_toStartOf="@+id/view56"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view47"
+        app:layout_constraintVertical_bias="0.457">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_bianhaoinput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_vertical|center_vertical"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="numberDecimal"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/contents_text"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_10input"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/view60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toEndOf="@+id/R2_1_9_9input"
+        app:layout_constraintTop_toTopOf="@+id/view53"
+        app:layout_constraintVertical_bias="0.64">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_caozupinput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_vertical|center_vertical"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/browser_actions_text_color"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_8input"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/view60"
+        app:layout_constraintEnd_toStartOf="@+id/view58"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toEndOf="@+id/view57"
+        app:layout_constraintTop_toBottomOf="@+id/view53"
+        app:layout_constraintVertical_bias="0.638">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_sexinput2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_vertical|center_vertical"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/browser_actions_text_color"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_9input"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/view60"
+        app:layout_constraintEnd_toStartOf="@+id/view46"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toEndOf="@+id/view58"
+        app:layout_constraintTop_toBottomOf="@+id/view53"
+        app:layout_constraintVertical_bias="0.64">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_maoseinput3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_vertical|center_vertical"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/browser_actions_text_color"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_5input"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/view48"
+        app:layout_constraintEnd_toStartOf="@+id/view45"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toEndOf="@+id/view56"
+        app:layout_constraintTop_toBottomOf="@+id/view47"
+        app:layout_constraintVertical_bias="0.449">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_sexinput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_vertical|center_vertical"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/contents_text"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="150dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:maxLines="1"
+        android:text="配种产子档案"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/view16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintWidth_percent="1" />
+
+    <Button
+        android:id="@+id/R2_1_19_libiao"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/conerwhite"
+        android:text="例表"
+        android:textColor="@color/browser_actions_text_color"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toTopOf="@+id/view16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516" />
+
+    <View
+        android:id="@+id/view16"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center|center_vertical"
+        android:text="配种时间：  2019年11月25日"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/view17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view16"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/view17"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <View
+        android:id="@+id/view28"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view29"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="公羊编号："
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toBottomOf="@+id/view28"
+        app:layout_constraintEnd_toStartOf="@+id/R2_1_9_13input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view17"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_13input"
+        android:layout_width="90dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="2dp"
+        android:background="@color/design_default_color_background"
+
+        app:hintEnabled="false"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintBottom_toTopOf="@+id/view28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view17"
+        app:layout_constraintVertical_bias="0.555">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_耳号"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@null"
+            android:gravity="center"
+            android:hint="    输入耳号"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textColor="@color/browser_actions_text_color"
+            android:textColorHint="@color/browser_actions_text_color"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/R2_1_9_erhaoscan"
+        android:layout_width="15dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/icol_scandel"
+        app:layout_constraintBottom_toTopOf="@+id/view28"
+        app:layout_constraintEnd_toStartOf="@+id/view29"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toEndOf="@+id/R2_1_9_13input"
+        app:layout_constraintTop_toBottomOf="@+id/view17"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <View
+        android:id="@+id/view29"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="@+id/view35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view17"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="母羊编号："
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toTopOf="@+id/view33"
+        app:layout_constraintEnd_toStartOf="@+id/R2_1_12_muyanginput"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view28"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_12_muyanginput"
+        android:layout_width="90dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/design_default_color_background"
+        android:visibility="visible"
+        app:hintEnabled="false"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintBottom_toTopOf="@+id/view30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view28">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_muyangshuru"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="   输入耳号"
+            android:inputType="numberDecimal"
+            android:singleLine="false"
+            android:textColor="@color/browser_actions_text_color"
+            android:textColorHint="@color/design_default_color_on_secondary"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/R2_1_9_erhaomucan"
+        android:layout_width="15dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/icol_scandel"
+        app:layout_constraintBottom_toTopOf="@+id/view30"
+        app:layout_constraintEnd_toStartOf="@+id/view29"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toEndOf="@+id/R2_1_12_muyanginput"
+        app:layout_constraintTop_toBottomOf="@+id/view28" />
+
+    <View
+        android:id="@+id/view30"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/design_default_color_on_secondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="近亲测定"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView39"
+        app:layout_constraintEnd_toStartOf="@+id/view31"
+        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintHorizontal_weight="0.5"
+        app:layout_constraintStart_toStartOf="@+id/view29"
+        app:layout_constraintTop_toBottomOf="@+id/view17"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_11input"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/view30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/view31"
+        app:layout_constraintTop_toBottomOf="@+id/view17"
+        app:layout_constraintVertical_bias="0.149">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_peizhongresult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint=" 结果  可配/不可配"
+            android:inputType="text"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textColorHint="@color/browser_actions_text_color"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="移至栏栋   "
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toBottomOf="@+id/view35"
+        app:layout_constraintEnd_toEndOf="@+id/view32"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view30"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="栋号"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toBottomOf="@+id/view35"
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout8"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toEndOf="@+id/view32"
+        app:layout_constraintTop_toBottomOf="@+id/view30"
+        app:layout_constraintVertical_bias="0.232" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="栏号"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toBottomOf="@+id/view35"
+        app:layout_constraintEnd_toEndOf="@+id/textView35"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toEndOf="@+id/view28"
+        app:layout_constraintTop_toTopOf="@+id/view30"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <View
+        android:id="@+id/view32"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="@+id/view35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view30"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <View
+        android:id="@+id/view33"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toTopOf="@+id/view37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view30"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <View
+        android:id="@+id/view31"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/design_default_color_on_secondary"
+        app:layout_constraintBottom_toTopOf="@+id/view35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view17"
+        app:layout_constraintVertical_bias="0.1488" />
+
+    <View
+        android:id="@+id/view35"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/design_default_color_on_secondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.255" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/view35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintStart_toEndOf="@+id/view31"
+        app:layout_constraintTop_toBottomOf="@+id/view30"
+        app:layout_constraintVertical_bias="0.225">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_lanhao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center|center_vertical"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/view35"
+        app:layout_constraintEnd_toStartOf="@+id/view29"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toEndOf="@+id/view33"
+        app:layout_constraintTop_toBottomOf="@+id/view30"
+        app:layout_constraintVertical_bias="0.228">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_donghao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:id="@+id/view36"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <View
+        android:id="@+id/view37"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <View
+        android:id="@+id/view47"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <View
+        android:id="@+id/view48"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474" />
+
+    <View
+        android:id="@+id/view53"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <View
+        android:id="@+id/view55"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="39dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view60"
+        app:layout_constraintVertical_bias="0.00003"
+        app:layout_constraintVertical_weight="9" />
+
+    <View
+        android:id="@+id/view60"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <View
+        android:id="@+id/view59"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573" />
+
+    <View
+        android:id="@+id/view54"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <View
+        android:id="@+id/view38"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:background="@color/contents_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/view37"
+        app:layout_constraintEnd_toEndOf="@+id/view33"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view35"
+        app:layout_constraintVertical_bias="0.275">
+
+        <RadioButton
+            android:id="@+id/R2_1_9_renshen"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:text="妊娠"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/R2_1_9_复配"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:text="复配"
+            android:textSize="10sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/R2_1_9_input0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/view37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/view33"
+        app:layout_constraintTop_toBottomOf="@+id/view35"
+        app:layout_constraintVertical_bias="0.278"
+        app:layout_constraintVertical_weight="4">
+
+        <RadioButton
+            android:id="@+id/R2_1_9_zhenvhang"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="正常"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/R2_1_9_liuchan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="流产（自动呈现时间）"
+            android:textSize="10sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="断奶： 2019年 8月11日"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="产子时间： 2019年 8月11日"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toBottomOf="@+id/view36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view37"
+        app:layout_constraintVertical_bias="0.33" />
+
+    <TextView
+        android:id="@+id/R2_5_textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="  产子数"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toBottomOf="@+id/view38"
+        app:layout_constraintEnd_toStartOf="@+id/view40"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view36"
+        app:layout_constraintVertical_bias="0.37" />
+
+    <View
+        android:id="@+id/view39"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/view38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view36"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <View
+        android:id="@+id/view40"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/view38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view36"
+        app:layout_constraintVertical_bias="0.368" />
+
+    <View
+        android:id="@+id/view42"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/view38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view36"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <View
+        android:id="@+id/view41"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/view38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view36"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <View
+        android:id="@+id/view43"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/view38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view36"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <View
+        android:id="@+id/view44"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/view38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view36"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="公"
+        android:textColor="@color/browser_actions_text_color"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toBottomOf="@+id/view38"
+        app:layout_constraintEnd_toStartOf="@+id/view39"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toEndOf="@+id/view40"
+        app:layout_constraintTop_toTopOf="@+id/view36"
+        app:layout_constraintVertical_bias="0.37" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/view38"
+        app:layout_constraintEnd_toStartOf="@+id/view44"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="@+id/view39"
+        app:layout_constraintTop_toBottomOf="@+id/view36"
+        app:layout_constraintVertical_bias="0.37">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_gonginput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/contents_text"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="母"
+        android:textColor="@color/browser_actions_text_color"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toTopOf="@+id/view38"
+        app:layout_constraintEnd_toStartOf="@+id/view43"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout12"
+        app:layout_constraintTop_toBottomOf="@+id/view36"
+        app:layout_constraintVertical_bias="0.996" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/view38"
+        app:layout_constraintEnd_toStartOf="@+id/view41"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toEndOf="@+id/view43"
+        app:layout_constraintTop_toBottomOf="@+id/view36"
+        app:layout_constraintVertical_bias="1.0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_muinput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="胎次"
+        android:textColor="@color/browser_actions_text_color"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toTopOf="@+id/view38"
+        app:layout_constraintEnd_toStartOf="@+id/view42"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/view41"
+        app:layout_constraintTop_toBottomOf="@+id/view36"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_input1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/view38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toEndOf="@+id/view42"
+        app:layout_constraintTop_toBottomOf="@+id/view36"
+        app:layout_constraintVertical_bias="1.0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_taiciinput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="编号"
+        android:textColor="@color/contents_text"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/view53"
+        app:layout_constraintEnd_toStartOf="@+id/view57"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view59"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="编号"
+        android:textColor="@color/contents_text"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toTopOf="@+id/view47"
+        app:layout_constraintEnd_toStartOf="@+id/view56"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view38"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <View
+        android:id="@+id/view34"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/view54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view48"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view52"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/view54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view48"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <View
+        android:id="@+id/view51"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/view54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view48"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <View
+        android:id="@+id/view50"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toTopOf="@+id/view54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view48"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view49"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toTopOf="@+id/view48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view38"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <View
+        android:id="@+id/view46"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/view60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view59"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <View
+        android:id="@+id/view57"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toTopOf="@+id/view60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view59"
+        app:layout_constraintVertical_bias="0.624" />
+
+    <View
+        android:id="@+id/view58"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toTopOf="@+id/view60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view59"
+        app:layout_constraintVertical_bias="0.624" />
+
+    <View
+        android:id="@+id/view56"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toTopOf="@+id/view48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view38"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <View
+        android:id="@+id/view45"
+        android:layout_width="0.8dp"
+        android:layout_height="0dp"
+        android:background="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toTopOf="@+id/view48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view38"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="性别"
+        android:textColor="@color/contents_text"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toTopOf="@+id/view47"
+        app:layout_constraintEnd_toStartOf="@+id/view45"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toEndOf="@+id/view56"
+        app:layout_constraintTop_toBottomOf="@+id/view38"
+        app:layout_constraintVertical_bias="0.277" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="性别"
+        android:textColor="@color/contents_text"
+        app:layout_constraintBottom_toTopOf="@+id/view53"
+        app:layout_constraintEnd_toStartOf="@+id/view58"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/view59"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="毛色"
+        android:textColor="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toTopOf="@+id/view53"
+        app:layout_constraintEnd_toStartOf="@+id/view46"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toEndOf="@+id/view58"
+        app:layout_constraintTop_toBottomOf="@+id/view59"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="毛色"
+        android:textColor="@color/browser_actions_text_color"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toTopOf="@+id/view47"
+        app:layout_constraintEnd_toStartOf="@+id/view49"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toEndOf="@+id/view45"
+        app:layout_constraintTop_toBottomOf="@+id/view38"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="操作"
+        android:textColor="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toTopOf="@+id/view53"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toEndOf="@+id/textView40"
+        app:layout_constraintTop_toBottomOf="@+id/view59"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="初生重"
+        android:textColor="@color/browser_actions_text_color"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toTopOf="@+id/view47"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toEndOf="@+id/textView57"
+        app:layout_constraintTop_toBottomOf="@+id/view38"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="视频："
+        android:textColor="@color/browser_actions_text_color"
+        app:layout_constraintBottom_toTopOf="@+id/view55"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view60"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="栏"
+        android:textColor="@color/browser_actions_text_color"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toTopOf="@+id/view54"
+        app:layout_constraintEnd_toStartOf="@+id/view34"
+        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintStart_toEndOf="@+id/view52"
+        app:layout_constraintTop_toBottomOf="@+id/view48"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="栋"
+        android:textColor="@color/browser_actions_text_color"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toBottomOf="@+id/view54"
+        app:layout_constraintEnd_toStartOf="@+id/view50"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toEndOf="@+id/view51"
+        app:layout_constraintTop_toTopOf="@+id/view48"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="移至产羔舍"
+        android:textColor="@color/browser_actions_text_color"
+        android:textSize="@dimen/meddle"
+        app:layout_constraintBottom_toBottomOf="@+id/view54"
+        app:layout_constraintEnd_toStartOf="@+id/view51"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view48"
+        app:layout_constraintVertical_bias="0.495" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/view54"
+        app:layout_constraintEnd_toStartOf="@+id/view52"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/view50"
+        app:layout_constraintTop_toBottomOf="@+id/view48"
+        app:layout_constraintVertical_bias="0.496">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_donginput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_14input"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/view54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toEndOf="@+id/view34"
+        app:layout_constraintTop_toBottomOf="@+id/view48"
+        app:layout_constraintVertical_bias="1.0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_laninput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/view55"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_weight="9"
+        app:layout_constraintStart_toEndOf="@+id/textView48"
+        app:layout_constraintTop_toBottomOf="@+id/view60"
+        app:layout_constraintVertical_bias="0.679">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_paise"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="视频拍摄"
+            android:inputType="text"
+            android:textColor="@color/browser_actions_text_color"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/R2_1_9_luru"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/conerback"
+        android:text="录入"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view55"
+        app:layout_constraintVertical_bias="0.067"
+        app:layout_constraintVertical_weight="10" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_7input"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/view60"
+        app:layout_constraintEnd_toStartOf="@+id/view57"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view53"
+        app:layout_constraintVertical_bias="0.638">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_shuruinput2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="输入"
+            android:inputType="numberDecimal"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/browser_actions_text_color"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/R2_1_9_20input"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/view48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toEndOf="@+id/view49"
+        app:layout_constraintTop_toBottomOf="@+id/view47"
+        app:layout_constraintVertical_bias="0.451">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/R2_1_9_chushengzhonginput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_vertical|center_vertical"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="@dimen/huge" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

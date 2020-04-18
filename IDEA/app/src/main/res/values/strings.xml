@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">QianMuYun</string>
+    <string name="R2_1">养殖生产</string>
+    <string name="R2_1_1">系谱管理</string>
+    <string name="R2_1_2">驱虫管理</string>
+    <string name="R2_1_3">配种管理</string>
+    <string name="R2_1_4">育种产子</string>
+    <string name="R2_1_5">种畜禽管理</string>
+    <string name="R2_1_6">动物福利</string>
+    <string name="R2_1_7">消毒管理</string>
+    <string name="R2_1_8">育种选育</string>
+    <string name="R2_1_9">存栏管理</string>
+    <string name="R2_1_10">免疫管理</string>
+    <string name="R2_1_11">营养保健</string>
+    <string name="R2_1_12">疾病防治</string>
+    <string name="R2_1_13">可视管理</string>
+    <string name="R2_1_hint">输入耳编号 初次录入使用</string>
+
+    <string name="R2_1_6_0">动物福利</string>
+    <string name="R2_1_6_1">操作流程是否规范</string>
+    <string name="R2_1_6_2">饲料库房房间是否清洁</string>
+    <string name="R2_1_6_3">灭鼠是否到位</string>
+    <string name="R2_1_6_4">羊舍通风采光是否合理</string>
+    <string name="R2_1_6_5">羊床卫生是否清洁</string>
+    <string name="R2_1_6_6">环境卫生是否清洁</string>
+    <string name="R2_1_6_7">饲草饲料是否霉变</string>
+    <string name="R2_1_6_8">冬季防寒保暖是否到位</string>
+    <string name="R2_1_6_9">灭蚊是否到位是否到位</string>
+    <string name="R2_1_6_10">视频:</string>
+    <string name="R2_1_6_11">点击录制视频</string>
+
+
+    <string name="Enter">录入</string>
+    <string name="List">例表</string>
+    <string name="Yes">是</string>
+    <string name="No">否</string>
+    <string name="male">公</string>
+    <string name="female">母</string>
+    <string name="workvedio">工作视频拍摄</string>
+    <string name="vedio">视频：</string>
+
+    <!--    //R2_1_5-->
+    <string name="xiaodutextview">消毒档案</string>
+    <string name="xiaodutime">消毒时间：xx年xx日</string>
+    <string name="shengshihui">生石灰</string>
+    <string name="jutongdian">聚维酮碘</string>
+    <string name="hundroedkill">百毒杀</string>
+    <string name="jiaquan">甲醛</string>
+    <string name="fuhefeng">复合酚</string>
+    <string name="shiyongfangfa">&#160;&#160;&#160;&#160;使用方法：</string>
+    <string name="jiliang">&#160;&#160;&#160;&#160;剂&#160;&#160;&#160;&#160;量&#160;&#160;&#160;&#160;：</string>
+    <string name="place">消毒场所</string>
+    <string name="placelist">生产工具 全场环境 圈舍</string>
+    <string name="xiaoduyao">消毒药:</string>
+    <string name="libiao">例表</string>
+
+
+    <string name="R2_1_1_pedigreeManage">系谱管理</string>
+    <string name="R2_1_1_earNumber">&#160;&#160;&#160;&#160;耳标编号</string>
+    <string name="R2_1_1_earNumber_hint">&#160;&#160;&#160;&#160;&#160;&#160;输入耳编号</string>
+    <string name="R2_1_1_sexManage">&#160;&#160;性别：</string>
+    <string name="R2_1_1_Address">&#160;&#160;养殖场地理位置：</string>
+    <string name="R2_1_1_BirthAddress">&#160;&#160;出生基地：</string>
+    <string name="R2_1_1_Birthday">&#160;&#160;出生时间：</string>
+    <string name="R2_1_1_BirthWeight">&#160;&#160;初生重：</string>
+    <string name="R2_1_1_Variety">&#160;&#160;品种：</string>
+    <string name="R2_1_1_Coatcolor">&#160;&#160;毛色:</string>
+
+
+    <!--    //R2_1_8-->
+    <string name="progressdangan">阶段营养保健档案</string>
+    <string name="R2_1_8libiao">例表</string>
+    <string name="usingtime">使用时间：</string>
+    <string name="danweiqunti">单位群体： 全场</string>
+    <string name="jieduan">阶段：</string>
+    <string name="avarage">平均体重</string>
+    <string name="jieduanyingyang">阶段营养</string>
+    <string name="baojian">保健</string>
+    <string name="yingji">应激</string>
+    <string name="rengshenend">妊娠后期</string>
+    <string name="rengshengstart">妊娠期前期</string>
+    <string name="gaoyang">羔羊</string>
+    <string name="peizhongqi">配种期</string>
+    <string name="konghuai">空怀</string>
+    <string name="jinpeiliao">精配料</string>
+    <string name="yuhunliao">预混料</string>
+    <string name="doupo">豆粕</string>
+    <string name="fupi">麸皮</string>
+    <string name="yumi">玉米</string>
+    <string name="jinpeinumber">0</string>
+    <string name="addtionyupeiliao">+</string>
+    <string name="submtionyupeiliao">-</string>
+    <string name="chusiliaopeifang">粗饲料配方：</string>
+    <string name="gancaoliao">干草类</string>
+    <string name="qingcaolei">青草类</string>
+    <string name="qinchulei">青贮类</string>
+    <string name="avaragefeed">平均每只每天饲喂量/kg</string>
+    <string name="jinliao">精料</string>
+    <string name="cusiliao">粗饲料</string>
+    <string name="quanjialiaomeizhi">全价料每只/斤:</string>
+    <string name="yongliaozonliang">用料总量kg： 精料</string>
+    <string name="paishe">视频：</string>
+    <string name="luru">录入</string>
+    <string name="圈舍">圈舍</string>
+    <string name="栏">栏</string>
+    <string name="耳号">耳号</string>
+    <string name="number">数量</string>
+    <string name="avgweight">平均重量</string>
+
+    <string name="R2_8_1">平均每天每只饲喂量/kg：&#160;&#160;&#160;&#160;</string>
+    <string name="R2_8_2">精料</string>
+    <string name="R2_8_3">粗饲料</string>
+    <string name="R2_8_4">全价料每只/斤：&#160;&#160;</string>
+    <string name="R2_8_5">用料总量kg：&#160;&#160;</string>
+
+
+    <string name="plus">&#160;&#160;-1</string>
+    <string name="sub">&#160;&#160;+1</string>
+
+    <!--    R2-1-10-->
+    <string name="Title_R2_1_10">育种选育档案</string>
+    <string name="ear_number_R2_1_10">耳编号</string>
+    <string name="female_num_R2_1_10">&#160;&#160;&#160;&#160;&#160;&#160;母号：</string>
+    <string name="male_num_R2_1_10">&#160;&#160;&#160;&#160;&#160;&#160;父号：</string>
+    <string name="Coatcolor_R2_1_10">&#160;&#160;&#160;&#160;&#160;&#160;毛色：</string>
+    <string name="Weight_R2_1_10">&#160;&#160;&#160;&#160;&#160;&#160;体重：</string>
+    <string name="Body_length_R2_1_10">&#160;&#160;&#160;&#160;&#160;&#160;体长：</string>
+    <string name="Body_height_R2_1_10">&#160;&#160;&#160;&#160;&#160;&#160;体高：</string>
+    <string name="bust_R2_1_10">&#160;&#160;&#160;&#160;&#160;&#160;胸围：</string>
+    <string name="wrist_R2_1_10">&#160;&#160;&#160;&#160;&#160;&#160;腕高：</string>
+    <string name="vedio_R2_1_10">&#160;&#160;&#160;&#160;&#160;&#160;视频：</string>
+    <string name="vedio_hite_R2_1_10">视频拍摄</string>
+    <string name="_R2_1_10">断奶选育</string>
+    <string name="_R2_2_10">4月龄选育</string>
+    <string name="_R2_3_10">6月龄选育</string>
+    <string name="_R2_4_10">12月龄选育</string>
+
+    <!--    R2-1-11-->
+    <string name="Title_R2_1_11">疾病防治档案</string>
+    <string name="donghao_R2_1_11">&#160;&#160;&#160;&#160;&#160;&#160;栋号&#160;&#160;</string>
+    <string name="lanhao_R2_1_11">&#160;&#160;&#160;&#160;&#160;&#160;栏号&#160;&#160;</string>
+    <string name="symptom_R2_1_11">&#160;&#160;&#160;&#160;&#160;&#160;症状&#160;&#160;</string>
+    <string name="result_R2_1_11">&#160;&#160;&#160;&#160;&#160;&#160;诊断结果&#160;&#160;</string>
+    <string name="处方_R2_1_11">&#160;&#160;&#160;&#160;&#160;&#160;处方&#160;&#160;</string>
+    <string name="疗程_R2_1_11">&#160;&#160;&#160;&#160;&#160;&#160;疗程&#160;&#160;</string>
+    <string name="用药量_R2_1_11">&#160;&#160;&#160;&#160;&#160;&#160;用药量&#160;&#160;</string>
+    <string name="治疗情况_R2_1_11">&#160;&#160;&#160;&#160;&#160;&#160;治疗情况&#160;&#160;</string>
+
+    <string name="拌料">拌料</string>
+    <string name="饮水">饮水</string>
+    <string name="投喂">投喂方式：&#160;&#160;</string>
+    <string name="总投喂量">总投喂量/kg：</string>
+    <string name="投喂疗程">投喂疗程/天：</string>
+    
+    
+    <string name="驱虫群体">&#160;&#160;&#160;&#160;驱虫群体：&#160;&#160;&#160;&#160;全场&#160;&#160;&#160;&#160;圈舍&#160;&#160;&#160;&#160;</string>
+    <string name="号">号</string>
+    <string name="未驱虫">&#160;&#160;&#160;&#160;未驱虫&#160;&#160;&#160;&#160;</string>
+    <string name="未接种">&#160;&#160;&#160;&#160;未接种&#160;&#160;&#160;&#160;</string>
+    <string name="未驱虫原因">&#160;&#160;&#160;&#160;未驱虫原因：</string>
+    <string name="未接种原因">&#160;&#160;&#160;&#160;未接种原因：</string>
+    <string name="因病">因病</string>
+    <string name="因孕">因孕</string>
+    <string name="驱虫档案">驱虫档案</string>
+
+
+    <string name="yse">确定</string>
+    <string name="no">取消</string>
+
+
+
+</resources>

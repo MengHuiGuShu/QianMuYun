@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:ignore="MissingDefaultResource">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R2_8_1"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:singleLine="true"/>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R2_8_2"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"/>
+        <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2_8_jin_avg"
+                android:textSize="12sp"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/black"
+                android:singleLine="true"/>
+        <View android:layout_width="40dp" android:layout_height="match_parent"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R2_8_3"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"/>
+        <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2_8_cu_avg"
+                android:textSize="12sp"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/black"
+                android:singleLine="true"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:text="@string/R2_8_4"/>
+        <EditText
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="12sp"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:id="@+id/R2_8_siliao_style"/>
+        <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/plus"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:id="@+id/R2_8_plus"/>
+        <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:id="@+id/R2_8_number"/>
+        <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sub"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:id="@+id/R2_8_sub"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:text="@string/R2_8_5"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:text="@string/R2_8_2"/>
+        <EditText
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2_8_jin_weight"
+                android:textSize="12sp"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/black"
+                android:singleLine="true"/>
+        <View android:layout_width="20dp" android:layout_height="match_parent"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:text="@string/R2_8_3"/>
+        <EditText
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2_8_cu_weight"
+                android:inputType="numberDecimal"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"/>
+    </LinearLayout>
+
+</LinearLayout>

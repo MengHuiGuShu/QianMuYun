@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/PageAllBackgroud"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shu">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fragment_Top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:background="#51CCFF90">
+
+        <TextView
+            android:id="@+id/main_title"
+            style="@style/MyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/R2_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/fragment_Top"
+        android:background="@android:color/black" />
+
+    <FrameLayout
+        android:id="@+id/num_zxing_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_Top"
+        android:layout_marginBottom="1dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/num_zxing_main"
+        android:layout_marginBottom="@dimen/menu"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_noUser"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:background="#6DB9F6CA"
+            android:backgroundTint="#CBFFFB00" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#C900C853"
+                    android:backgroundTint="#FFFFFF"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/R2_1_liukai_xipumanager"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="#F5F5F5"
+                        android:elevation="10dp"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_1"
+                        app:layout_constraintEnd_toStartOf="@+id/R2_1_liukai_jibinmanager"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/R2_1_liukai_qucongmanager"
+                        android:layout_width="120dp"
+
+                        android:layout_height="60dp"
+                        android:layout_below="@id/R2_1_liukai_xipumanager"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="#FFFFFF"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_2"
+                        app:layout_constraintEnd_toStartOf="@+id/R2_1_liukai_animalWelfare"
+                        app:layout_constraintStart_toEndOf="@+id/BIN_liukai_zhongchumanager"
+                        app:layout_constraintTop_toBottomOf="@+id/R2_1_liukai_yuzhongmanager" />
+
+                    <Button
+                        android:id="@+id/R2_1_liukai_sexmanager"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/R2_1_liukai_qucongmanager"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="#00BBD4"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/R2_1_liukai_chunlanmanager"
+                        app:layout_constraintTop_toBottomOf="@+id/R2_1_liukai_Studiomanager" />
+
+                    <Button
+                        android:id="@+id/R2_1_liukai_yuzhongmanager"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/R2_1_liukai_sexmanager"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="#00BBD4"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_4"
+                        app:layout_constraintEnd_toStartOf="@+id/R2_1_liukai_sexselectmanager"
+                        app:layout_constraintStart_toEndOf="@+id/R2_1_liukai_yingyangmanager"
+                        app:layout_constraintTop_toBottomOf="@+id/R2_1_liukai_chunlanmanager" />
+
+                    <Button
+                        android:id="@+id/BIN_liukai_zhongchumanager"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/R2_1_liukai_yuzhongmanager"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="#00BBD4"
+                        android:text="@string/R2_1_5"
+                        app:layout_constraintEnd_toStartOf="@+id/R2_1_liukai_qucongmanager"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/R2_1_liukai_yingyangmanager" />
+
+                    <Button
+
+                        android:id="@+id/R2_1_liukai_animalWelfare"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="#00BBD4"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_6"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/R2_1_liukai_qucongmanager"
+                        app:layout_constraintTop_toBottomOf="@+id/R2_1_liukai_sexselectmanager" />
+
+                    <Button
+                        android:id="@+id/R2_1_liukai_xiaodumanager"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/R2_1_liukai_animalWelfare"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="#00BBD4"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_7"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/BIN_liukai_zhongchumanager" />
+
+                    <Button
+                        android:id="@+id/R2_1_liukai_sexselectmanager"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/R2_1_liukai_xiaodumanager"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="#FFFFFF"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_8"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/R2_1_liukai_yuzhongmanager"
+                        app:layout_constraintTop_toBottomOf="@+id/R2_1_liukai_sexmanager" />
+
+                    <Button
+                        android:id="@+id/R2_1_liukai_chunlanmanager"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/R2_1_liukai_sexselectmanager"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="@color/white"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_9"
+                        app:layout_constraintEnd_toStartOf="@+id/R2_1_liukai_sexmanager"
+                        app:layout_constraintStart_toEndOf="@+id/R2_1_liukai_mianyimanager"
+                        app:layout_constraintTop_toBottomOf="@+id/R2_1_liukai_jibinmanager" />
+
+                    <Button
+                        android:id="@+id/R2_1_liukai_mianyimanager"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="#00BBD4"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_10"
+                        app:layout_constraintEnd_toStartOf="@+id/R2_1_liukai_chunlanmanager"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/R2_1_liukai_xipumanager" />
+
+                    <Button
+                        android:id="@+id/R2_1_liukai_jibinmanager"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/R2_1_liukai_yingyangmanager"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/conorblack"
+                        android:backgroundTint="#00BBD4"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_12"
+                        android:textColor="@color/TitleUser"
+                        app:layout_constraintEnd_toStartOf="@+id/R2_1_liukai_Studiomanager"
+                        app:layout_constraintStart_toEndOf="@+id/R2_1_liukai_xipumanager"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/R2_1_liukai_Studiomanager"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/R2_1_liukai_jibinmanager"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="#FFFFFF"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_13"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/R2_1_liukai_jibinmanager"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/R2_1_liukai_yingyangmanager"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/R2_1_liukai_mianyimanager"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/roundconer"
+                        android:backgroundTint="#FFFFFF"
+                        android:foreground="?selectableItemBackground"
+                        android:text="@string/R2_1_11"
+                        app:layout_constraintEnd_toStartOf="@+id/R2_1_liukai_yuzhongmanager"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/R2_1_liukai_mianyimanager" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/main_menu"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="1dp">
+
+        <RadioGroup
+            android:id="@+id/rg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

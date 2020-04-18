@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F6F5"
+    android:layout_gravity="center_horizontal"
+    android:paddingTop="10dp"
+    android:fillViewport="true"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/R2_1_1_liukai_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/R2_1_1_pedigreeManage"
+            android:textColor="#000"
+            android:textSize="@dimen/titile"></TextView>
+
+        <Button
+            android:id="@+id/R2_1_1_LIUKAI_libiaoBUTTON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/R2_1_1_liukai_text"
+            android:background="@drawable/conerwhite"
+            android:foreground="?selectableItemBackground"
+
+            android:text="@string/List"
+            android:textColor="#A1A78C"
+            android:textSize="@dimen/medllbutton"></Button>
+
+        <View
+            android:layout_below="@id/R2_1_1_liukai_text"
+            android:layout_marginTop="10dp"
+            android:id="@+id/R2_1_1_liukai_view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/R2_1_1_liukai_view1"
+            android:background="#CCC2BC"
+
+
+            >
+
+            <TextView
+
+                android:id="@+id/R2_1_1_liukai_text2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/R2_1_1_earNumber"
+                android:textColor="#000000"
+                android:textSize="@dimen/meddle"></TextView>
+
+            <View
+                android:layout_below="@id/R2_1_1_liukai_text2"
+                android:layout_marginTop="10dp"
+                android:id="@+id/R2_1_1_liukai_view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"/>
+
+            <View
+                android:id="@+id/R2_1_1_liukai_view3"
+                android:layout_width="1dp"
+                android:layout_height="39dp"
+                android:layout_toRightOf="@id/R2_1_1_liukai_text2"
+                android:background="#000000" />
+
+            <ToolsUtils.DrawableEditText
+                android:id="@+id/R2_1_1_liukai_editerbiaohao"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_toRightOf="@id/R2_1_1_liukai_text2"
+                android:background="@null"
+                android:clickable="true"
+                android:drawableRight="@drawable/icol_scandel"
+                android:hint="@string/R2_1_1_earNumber_hint"
+                android:imeOptions="actionSearch"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:paddingBottom="30dp"
+                android:singleLine="true"
+                android:textColorHint="#F8F6F5"
+                android:textSize="@dimen/meddle"></ToolsUtils.DrawableEditText>
+
+            <TextView
+                android:id="@+id/R2_1_liukai_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2_1_1_liukai_text2"
+                android:layout_marginTop="4dp"
+                android:padding="10dp"
+                android:paddingTop="19dp"
+                android:text="@string/R2_1_1_sexManage"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+            <RadioGroup
+                android:paddingTop="8dp"
+                android:id="@+id/R2_1_1_liukai_radiogroup"
+                android:gravity="center_horizontal"
+                android:layout_below="@id/R2_1_1_liukai_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/R2_1_1_liukai_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male"
+                    android:textSize="@dimen/meddle"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/R2_1_1_liukai_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female"
+                    android:textSize="@dimen/meddle"></RadioButton>
+            </RadioGroup>
+            <View
+                android:layout_below="@id/R2_1_1_liukai_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000">
+            </View>
+
+            <TextView
+                android:id="@+id/R2__1_1_liukai_textview5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:padding="5dp"
+                android:text="@string/R2_1_1_Address"
+                android:textColor="#000000"
+                android:textSize="@dimen/meddle"></TextView>
+
+
+            <EditText
+                android:id="@+id/R2__1_1_liukai_text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2_1_liukai_text3"
+                android:layout_marginTop="-3dp"
+                android:layout_toRightOf="@id/R2__1_1_liukai_textview5"
+                android:background="@null"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></EditText>
+
+            <View
+
+                android:layout_below="@+id/R2__1_1_liukai_text5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000">
+            </View>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000">
+            </View>
+
+            <TextView
+
+                android:id="@+id/R2__1_1_liukai_textview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text5"
+                android:padding="5dp"
+                android:text="@string/R2_1_1_BirthAddress"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+
+            <EditText
+                android:id="@+id/R2__1_1_liukai_text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text5"
+                android:layout_toRightOf="@id/R2__1_1_liukai_textview6"
+                android:background="@null"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/R2__1_1_liukai_text6"
+                android:layout_marginTop="-3dp"
+                android:background="#000000"></View>
+
+            <TextView
+                android:id="@+id/R2__1_1_liukai_textview7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text6"
+                android:layout_marginTop="-5dp"
+                android:padding="5dp"
+                android:text="@string/R2_1_1_Birthday"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+            <EditText
+                android:id="@+id/R2__1_1_liukai_text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text6"
+                android:layout_marginTop="-5dp"
+                android:layout_toRightOf="@id/R2__1_1_liukai_textview7"
+                android:background="@null"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/R2__1_1_liukai_text7"
+                android:layout_marginTop="-2dp"
+                android:background="#000000"></View>
+
+            <TextView
+                android:id="@+id/R2__1_1_liukai_textview8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text7"
+                android:layout_marginTop="-5dp"
+                android:padding="5dp"
+                android:text="@string/R2_1_1_BirthWeight"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text7"
+                android:layout_marginTop="-5dp"
+                android:layout_toRightOf="@id/R2__1_1_liukai_textview8"
+                android:background="@null"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></EditText>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/R2__1_1_liukai_text8"
+                android:layout_marginTop="-2dp"
+                android:background="#000000"></View>
+
+            <TextView
+                android:id="@+id/R2__1_1_liukai_textview9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text8"
+                android:layout_marginTop="-6dp"
+                android:padding="5dp"
+                android:text="@string/R2_1_1_Variety"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+            <EditText
+                android:id="@+id/R2__1_1_liukai_text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text8"
+                android:layout_marginTop="-6dp"
+                android:layout_toRightOf="@id/R2__1_1_liukai_textview9"
+                android:background="@null"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/R2__1_1_liukai_text8"
+                android:layout_marginTop="-4dp"
+                android:background="#000000"></View>
+
+            <TextView
+                android:id="@+id/R2_1_1_liukai_text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text8"
+                android:layout_marginTop="-5dp"
+                android:padding="5dp"
+                android:text="@string/R2_1_1_Coatcolor"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+            <ToolsUtils.MultiLineRadioGroup
+                android:id="@+id/R2_1_1_liukai_radiogroupmaose"
+                android:gravity="center_horizontal"
+                android:layout_below="@id/R2__1_1_liukai_text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="70dp">
+
+                    <RadioButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="黑"
+                        android:textSize="@dimen/meddle"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/R2_1_1_liukai_white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="白"
+                        android:textSize="@dimen/meddle"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/R2_1_1_liukai_flower"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="花"
+                        android:textSize="@dimen/meddle"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/R2_1_1_liukai_yellow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="黄"
+                        android:textSize="@dimen/meddle"></RadioButton>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/R2_1_1_liukai_radiolinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="70dp">
+
+                    <RadioButton
+
+                        android:id="@+id/R2_1_1_liukai_jute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="黄麻"
+                        android:textSize="@dimen/meddle"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/R2_1_1_liukai_Blackhemp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="黑麻"
+                        android:textSize="@dimen/meddle"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/R2_1_1_liukai_grasswhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="草白"
+                        android:textSize="@dimen/meddle"></RadioButton>
+                </LinearLayout>
+            </ToolsUtils.MultiLineRadioGroup>
+
+            <View
+
+                android:layout_below="@+id/R2_1_1_liukai_radiogroupmaose"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000">
+            </View>
+
+
+            <TextView
+                android:id="@+id/R2__1_1_liukai_textview11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2_1_1_liukai_radiogroupmaose"
+                android:layout_marginTop="-2dp"
+                android:padding="5dp"
+                android:text="  母号 "
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+            <EditText
+                android:id="@+id/R2__1_1_liukai_text11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2_1_1_liukai_radiogroupmaose"
+                android:layout_marginTop="-2dp"
+                android:layout_toRightOf="@id/R2__1_1_liukai_textview11"
+                android:background="@null"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/R2__1_1_liukai_text11"
+                android:layout_marginTop="-5dp"
+                android:background="#000000"></View>
+
+            <TextView
+                android:id="@+id/R2__1_1_liukai_textview12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text11"
+                android:layout_marginTop="-5dp"
+                android:padding="5dp"
+                android:text="  父号： "
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+            <EditText
+                android:id="@+id/R2__1_1_liukai_text12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text11"
+                android:layout_marginTop="-5dp"
+                android:layout_toRightOf="@id/R2__1_1_liukai_textview12"
+                android:background="@null"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></EditText>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/R2__1_1_liukai_text12"
+                android:layout_marginTop="-2dp"
+                android:background="#000000"></View>
+
+
+            <TextView
+                android:id="@+id/R2__1_1_liukai_textview13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text12"
+                android:layout_marginTop="-3dp"
+                android:padding="5dp"
+                android:text="  祖父号： "
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+            <EditText
+                android:id="@+id/R2_1_1_liukai_text13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2__1_1_liukai_text12"
+                android:layout_marginTop="-3dp"
+                android:layout_toRightOf="@id/R2__1_1_liukai_textview13"
+                android:background="@null"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></EditText>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/R2_1_1_liukai_text13"
+                android:layout_marginTop="-3dp"
+                android:background="#000000"></View>
+
+            <TextView
+                android:id="@+id/R2__1_1_liukai_textview14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2_1_1_liukai_text13"
+                android:layout_marginTop="-5dp"
+                android:padding="5dp"
+                android:text="  祖母号： "
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+            <EditText
+                android:id="@+id/R2_1_1_liukai_text14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2_1_1_liukai_text13"
+                android:layout_marginTop="-5dp"
+                android:layout_toRightOf="@id/R2__1_1_liukai_textview14"
+                android:background="@null"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/R2_1_1_liukai_text14"
+                android:layout_marginTop="-3dp"
+                android:background="#000000"></View>
+
+            <TextView
+                android:id="@+id/R2__1_1_liukai_textview15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2_1_1_liukai_text14"
+                android:layout_marginTop="-7dp"
+                android:padding="5dp"
+                android:text="  外祖父号： "
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+
+            <EditText
+                android:id="@+id/R2_1_1_liukai_text15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2_1_1_liukai_text14"
+                android:layout_marginTop="-7dp"
+                android:layout_toRightOf="@id/R2__1_1_liukai_textview15"
+                android:background="@null"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></EditText>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/R2_1_1_liukai_text15"
+                android:layout_marginTop="-4dp"
+                android:background="#000000"></View>
+
+            <TextView
+                android:id="@+id/R2__1_1_liukai_textview16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2_1_1_liukai_text15"
+                android:layout_marginTop="-7dp"
+                android:padding="5dp"
+                android:text="  外祖母号： "
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></TextView>
+
+            <EditText
+                android:id="@+id/R2_1_1_liukai_text16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2_1_1_liukai_text15"
+                android:layout_marginTop="-7dp"
+                android:layout_toRightOf="@id/R2__1_1_liukai_textview16"
+                android:background="@null"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textSize="@dimen/meddle"></EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/R2_1_1_liukai_text16"
+                android:background="#000000"></View>
+
+            <View
+                android:id="@+id/R2_1_1_liukai_text17"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/R2_1_1_liukai_text16"
+                android:layout_marginTop="-3dp"
+                android:background="#000000"></View>
+
+            <Button
+                android:id="@+id/R2_1_1_enter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/R2_1_1_liukai_text16"
+                android:background="@drawable/conerback"
+                android:foreground="?selectableItemBackground"
+                android:padding="10dp"
+                android:text="@string/Enter"
+                android:textSize="@dimen/medllbutton"></Button>
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    style="@style/PageAllBackgroud"
+    android:layout_height="match_parent">
+    <View
+        android:background="@color/TitleUser"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <EditText
+        android:id="@+id/TableIn"
+        style="@style/TableEditFragment"
+        android:importantForAutofill="no" />
+    <View
+        android:background="@color/TitleUser"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

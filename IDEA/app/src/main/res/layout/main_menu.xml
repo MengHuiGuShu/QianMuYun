@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/PageAllBackgroud"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/fragment_Top"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text=""
+            style="@style/MyTitle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+                android:id="@+id/Listbutton"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:background="@drawable/conerback"
+                android:text="@string/libiao"
+                android:textColor="@color/browser_actions_text_color"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp" app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="10dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/fragment_Top"
+            android:background="@android:color/black"/>
+    <FrameLayout
+            android:id="@+id/num_zxing_main"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/fragment_Top"
+            android:layout_marginBottom="1dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+            android:id="@+id/main_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/num_zxing_main"
+            android:layout_marginBottom="@dimen/menu"
+            android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/main_menu"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:id="@+id/main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="1dp">
+
+        <RadioGroup
+            android:id="@+id/rg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

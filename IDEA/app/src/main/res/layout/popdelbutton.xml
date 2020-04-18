@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" tools:ignore="MissingDefaultResource">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="100dp">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical" android:id="@+id/pop_delete">
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <View android:layout_width="203dp" android:layout_height="1dp" android:background="@android:color/black"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <View android:layout_width="1dp" android:layout_height="match_parent" android:background="@android:color/black"/>
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="@string/yse"
+                android:background="#ffffff"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:id="@+id/pop_yes"/>
+        <View android:layout_width="1dp" android:layout_height="match_parent" android:background="@android:color/black"/>
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="#ffffff"
+                android:text="@string/no"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:id="@+id/pop_no"/>
+        <View android:layout_width="1dp" android:layout_height="match_parent" android:background="@android:color/black"/>
+    </LinearLayout>
+    <View android:layout_width="203dp" android:layout_height="0.5dp" android:background="@android:color/black"/>
+</LinearLayout>

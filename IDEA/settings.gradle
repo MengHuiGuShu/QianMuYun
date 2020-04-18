@@ -1,0 +1,3 @@
+include ':app', ':zxing', 'zxing'
+rootProject.name='QianMuYun'
+include ':zxing'

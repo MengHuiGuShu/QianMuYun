@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/PageAllBackgroud"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fragment_Top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/Title_R2_1_11"
+            style="@style/MyTitle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/Listbutton"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:background="@drawable/conerback"
+            android:text="@string/libiao"
+            android:textColor="@color/browser_actions_text_color"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="10dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/fragment_Top"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:id="@+id/main_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_Top"
+        android:layout_marginBottom="@dimen/menu"
+        android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:id="@+id/Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp">
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/num_zxing_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp">
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/donghao_R2_1_11"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:maxLines="1"/>
+                    <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+                    <EditText android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dong_R2_11"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:inputType="number"
+                        android:singleLine="true"/>
+                    <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lanhao_R2_1_11"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:maxLines="1"/>
+                    <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+                    <EditText
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lan_R2_11"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:inputType="number"
+                        android:singleLine="true"/>
+                    <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+                </LinearLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/symptom_R2_1_11"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:maxLines="1"/>
+                    <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+
+                    <EditText
+                        android:id="@+id/症状_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textLongMessage"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/result_R2_1_11"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:maxLines="1"/>
+                    <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+
+                    <EditText
+                        android:id="@+id/诊断结果_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textLongMessage"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/处方_R2_1_11"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:maxLines="1"/>
+                    <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+
+                    <EditText
+                        android:id="@+id/处方_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textLongMessage"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/疗程_R2_1_11"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:maxLines="1"/>
+                    <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+
+                    <EditText
+                        android:id="@+id/疗程_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textLongMessage"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/用药量_R2_1_11"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:maxLines="1"/>
+                    <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+
+                    <EditText
+                        android:id="@+id/用药量_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textLongMessage"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/治疗情况_R2_1_11"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:maxLines="1"/>
+                    <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+
+                    <EditText
+                        android:id="@+id/治疗情况_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textLongMessage"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:text="@string/vedio_R2_1_10"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/black"
+                        android:maxLines="1"/>
+                    <TextView
+                        android:id="@+id/相机11"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:textSize="12sp"
+                        android:text="@string/vedio_hite_R2_1_10"
+                        android:gravity="center"
+                        android:background="@null"
+                        android:textColor="@android:color/black"
+                        android:singleLine="true"
+                        />
+                </LinearLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+                <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/button_11" android:text="@string/Enter"/>
+
+                <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/main_menu"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:id="@+id/main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="1dp">
+
+        <RadioGroup
+            android:id="@+id/rg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

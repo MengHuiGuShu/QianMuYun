@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#CCC2BC"
+        tools:context=".R2_1_11">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Title_R2_1_11"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textSize="24sp"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/donghao_R2_1_11"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+        <EditText android:layout_width="60dp"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/dong_R2_11"
+                  android:textSize="12sp"
+                  android:textColor="@android:color/black"
+                  android:inputType="number"
+                  android:singleLine="true"/>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lanhao_R2_1_11"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+        <EditText
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/lan_R2_11"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:inputType="number"
+                android:singleLine="true"/>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/symptom_R2_1_11"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result_R2_1_11"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/处方_R2_1_11"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/疗程_R2_1_11"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/用药量_R2_1_11"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/治疗情况_R2_1_11"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent"  android:background="#000000"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/vedio_R2_1_10"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="12sp"
+                android:text="@string/vedio_hite_R2_1_10"
+                android:gravity="center"
+                android:background="@null"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:editable="false"
+        />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/button_R2_10" android:text="@string/Enter"/>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+</LinearLayout>

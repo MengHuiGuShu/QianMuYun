@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#CCC2BC"
+        tools:context=".R2_1_10">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <View android:layout_width="20dp" android:layout_height="match_parent" android:id="@+id/back_R2_10"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Title_R2_1_10"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:id="@+id/Tiltl_R2_10"/>
+        <View android:layout_width="40dp" android:layout_height="40dp" android:id="@+id/List_R2_10" android:background="@drawable/icol_scandel"/>
+
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male_num_R2_1_10"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <EditText android:layout_width="60dp"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/male_R2_10"
+                  android:textSize="12sp"
+                  android:textColor="@android:color/black"
+                  android:inputType="number"
+                  android:singleLine="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female_num_R2_1_10"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <EditText
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/female_R2_10"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:inputType="number"
+                android:singleLine="true"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <ToolsUtils.MultiLineRadioGroup android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/multiply_R2_10" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/_R2_10_1" android:text="@string/_R2_1_10" android:textColor="@android:color/black"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/_R2_10_2" android:text="@string/_R2_2_10" android:textColor="@android:color/black"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/_R2_10_3" android:text="@string/_R2_3_10" android:textColor="@android:color/black"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/_R2_10_4" android:text="@string/_R2_4_10" android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </ToolsUtils.MultiLineRadioGroup>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Coatcolor_R2_1_10"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Weight_R2_1_10"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Body_length_R2_1_10"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:maxLines="1"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Body_height_R2_1_10"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bust_R2_1_10"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wrist_R2_1_10"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:inputType="textLongMessage"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/vedio_R2_1_10"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:maxLines="1"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="12sp"
+                android:text="@string/vedio_hite_R2_1_10"
+                android:gravity="center"
+                android:background="@null"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:editable="false"
+        />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/button_R2_10" android:text="@string/Enter"/>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"  android:background="#000000"/>
+
+
+
+</LinearLayout>
